@@ -1,0 +1,6 @@
+/java/*.class
+/scal/target
+/swfexec/.DS_Store
+/swfexec/.build
+/swfexec/Packages
+/swfexec/*.xcodeproj
