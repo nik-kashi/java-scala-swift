@@ -1,5 +1,5 @@
 /java/*.class
-/scal/target
+/scala/target
 /swfexec/.DS_Store
 /swfexec/.build
 /swfexec/Packages
