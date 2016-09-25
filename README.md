@@ -1,11 +1,13 @@
-# java scala swift
+# Programming languages performance challenge
 
 
 ### It's a performance challenge!
 
-First of all, make sure that *java* , *javac* , *sbt* and *swift* commands installed and exists in your path
+First of all, make sure that *gcc* , *java* , *javac* , *sbt* and *swift* commands installed and exists in your path
 
 #### For comparing performance, code your algorithm in related files:
+
+*c* -> **c/cTest.c**
 
 *scala* -> **scala/scalaTest.scala**
 

@@ -1,5 +1,8 @@
 echo "START: compilation started"
 javac java/JavaTest.java
+cd c
+gcc -o cTest cTest.c
+cd ..
 cd swfexec
 swift build
 cd ..
@@ -7,16 +10,20 @@ cd scala
 sbt compile
 cd ..
 echo "compilation finished. Now benchmarking starts:"
-cd java
+echo "-----------------------------------------------------C-----------------------------------------------------"
+cd c
+time ./cTest
+cd ..
 echo "-----------------------------------------------------JAVA-----------------------------------------------------"
+cd java
 time java JavaTest
 cd ..
-cd scala
 echo "-----------------------------------------------------SCALA-----------------------------------------------------"
+cd scala
 time sbt run
 cd ..
-cd swfexec
 echo "-----------------------------------------------------SWIFT-----------------------------------------------------"
+cd swfexec
 time .build/debug/swfexec
 cd ..
 echo "END!!"
