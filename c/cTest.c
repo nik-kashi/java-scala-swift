@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
   long j=0;
   long k=0;
