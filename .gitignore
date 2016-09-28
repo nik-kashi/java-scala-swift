@@ -1,5 +1,6 @@
+/java/cTest
 /java/*.class
-/scala/target
+/scala/*.class
 /swfexec/.DS_Store
 /swfexec/.build
 /swfexec/Packages

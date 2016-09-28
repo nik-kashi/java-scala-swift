@@ -7,7 +7,7 @@ cd swfexec
 swift build
 cd ..
 cd scala
-sbt compile
+scalac scalaTest.scala
 cd ..
 echo "compilation finished. Now benchmarking starts:"
 echo "-----------------------------------------------------C-----------------------------------------------------"
@@ -20,7 +20,7 @@ time java JavaTest
 cd ..
 echo "-----------------------------------------------------SCALA-----------------------------------------------------"
 cd scala
-time sbt run
+time scala -classpath . Hi
 cd ..
 echo "-----------------------------------------------------SWIFT-----------------------------------------------------"
 cd swfexec

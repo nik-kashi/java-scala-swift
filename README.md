@@ -3,7 +3,7 @@
 
 ### It's a performance challenge!
 
-First of all, make sure that *gcc* , *java* , *javac* , *sbt* and *swift* commands installed and exists in your path
+First of all, make sure that *gcc* , *java* , *javac* , *scala* and *swift* commands installed and exists in your path
 
 #### For comparing performance, code your algorithm in related files:
 
