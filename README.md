@@ -16,3 +16,6 @@ First of all, make sure that *gcc* , *java* , *javac* , *scala* and *swift* comm
 *swift* -> **swfexec/Sources/main.swift**
 
 to start benchmark use this shell script: ` $ sh start.sh `
+
+For more information, see this:
+https://www.linkedin.com/pulse/swift-vs-scala-java-c-what-developer-understand-from-mohsen-kashi?published=t
